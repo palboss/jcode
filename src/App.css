@@ -1,0 +1,10 @@
+
+.login,
+.register {
+  width: 400px;
+  margin: 100px auto auto;
+}
+
+hr {
+  margin: 5px 0 !important;
+}

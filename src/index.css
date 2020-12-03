@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: hsl(0, 0%, 85%) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+}

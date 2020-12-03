@@ -1,0 +1,38 @@
+
+.linetext {
+    position: relative;
+    text-align: center;
+    width: 84%;
+    margin: 15px auto;
+}
+/*CSS伪类用法*/
+.linetext:after,
+.linetext:before {
+    position: absolute;
+    top: 50%;
+    background: #7a7a7a;
+    content: "";
+    height: 1px;
+    width: 30%;
+}
+/*调整背景横线的左右距离*/
+.linetext:before {
+    left: 0;
+}
+.linetext:after {
+    right: 0;
+}
+
+.line {
+    height: 1px;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+}
+
+.txt {
+    position: relative;
+    top: -18px;
+    background: #fff;
+    display: inline-block;
+}
